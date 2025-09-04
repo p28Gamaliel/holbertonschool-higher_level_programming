@@ -7,7 +7,6 @@ if number < 0:
     number % 10 * -1
 
 print(f"Last digit of {number} is {last_digit}", end=" ")
-
 if last_digit > 5:
     print(f"and is greater then 5")
 elif last_digit == 0:
