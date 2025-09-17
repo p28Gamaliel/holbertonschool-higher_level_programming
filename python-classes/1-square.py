@@ -3,6 +3,8 @@
 
 
 class Square:
+    """asuca"""
+
     def __init__(self, size = 0):
         """
         Initializes a new Square instance.
