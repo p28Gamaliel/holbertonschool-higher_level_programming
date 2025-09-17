@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""masuca"""
+"""we define the class"""
 
 
 class Square:
