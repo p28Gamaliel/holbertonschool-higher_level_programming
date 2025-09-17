@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""masuca"""
+
+
 class Square:
     def __init__(self, size):
         """
