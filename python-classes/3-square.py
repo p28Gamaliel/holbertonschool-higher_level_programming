@@ -25,4 +25,3 @@ class Square:
         2.
         """
         return self.__size ** 2
-
