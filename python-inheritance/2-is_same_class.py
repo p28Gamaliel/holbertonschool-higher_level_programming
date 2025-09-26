@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-a function returns True if the object is exactly an instance of the specified class.
+True if the object is exactly an instance of the specified class.
 """
 
 
