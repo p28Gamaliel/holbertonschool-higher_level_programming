@@ -7,6 +7,6 @@ def lookup(self):
     Args:
         Obj: attributes and methods.
 
-    return: a list.
+    return: a lists.
     """
     return dir(lookup)
