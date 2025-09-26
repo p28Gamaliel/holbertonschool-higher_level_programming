@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""write instances"""
+
+
 def is_kind_of_class(obj, a_class):
     """
     Checks if an object is an instance of, or an instance of a class
