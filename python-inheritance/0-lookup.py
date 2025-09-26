@@ -9,4 +9,4 @@ def lookup(self):
 
     return: a lists.
     """
-    return dir(lookup)
+    return dir(list)
