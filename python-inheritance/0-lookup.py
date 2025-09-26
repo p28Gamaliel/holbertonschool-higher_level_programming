@@ -2,11 +2,11 @@
 """look a object."""
 
 
-def lookup(self):
+def lookup(obj):
     """
     Args:
         Obj: attributes and methods.
 
     return: a lists.
     """
-    return dir(list)
+    return dir(obj)
