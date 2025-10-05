@@ -13,10 +13,10 @@ class Student:
 
     def to_json(self, attrs=None):
         """return a dictionary of attributes."""
-        if type(attrs) == list:
+        if isinstance(attrs, list):
             result = {}
             for name in attrs:
-                if type(name) == str and hasattr(self, name):
+                if isinstance(name, str) and hasattr(self, name):
                     result[name] = getattr(self, name)
             return result
         else:
