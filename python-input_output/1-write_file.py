@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Este archivo contiene una función que escribe texto en un archivo
 y devuelve cuántos caracteres fueron escritos."""
 
