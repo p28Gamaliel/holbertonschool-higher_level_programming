@@ -1,1 +1,1 @@
-#!/bin/usr/nodes
+#!/usr/bin/node
