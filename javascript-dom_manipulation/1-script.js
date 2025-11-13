@@ -1,4 +1,4 @@
-#!/bin/usr/node
+#!/usr/bin/node
 const redHeader = document.querySelector('#red_header');
 redHeader.addEventListener('click', () => {
     const header = document.querySelector('header');
