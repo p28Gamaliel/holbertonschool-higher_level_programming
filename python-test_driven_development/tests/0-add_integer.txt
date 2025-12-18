@@ -1,25 +1,68 @@
-#!/usr/bin/python3
-from 0-add_integer import add_integer
-import doctest
+The ``0-add_integer`` module
+==============================================
 
-def run_tests():
-    """
+Using ``add_integer``
+-------------------------------------------
+
+Import the function:
+
+    >>> add_integer = __import__('0-add_integer').add_integer
+
+Test with two positive integers:
+
     >>> add_integer(1, 2)
     3
+
+Test with positive and negative:
+
     >>> add_integer(100, -2)
     98
+
+Test with default value:
+
     >>> add_integer(2)
     100
+
+Test with float and integer:
+
     >>> add_integer(100.3, -2)
     98
+
+Test with string as second argument:
+
     >>> add_integer(4, "School")
     Traceback (most recent call last):
     TypeError: b must be an integer
+
+Test with None as first argument:
+
     >>> add_integer(None)
     Traceback (most recent call last):
     TypeError: a must be an integer
-    """
-    pass
 
-if __name__ == "__main__":
-    doctest.testmod()
+Test with two floats:
+
+    >>> add_integer(3.7, 2.3)
+    5
+
+Test with two negative integers:
+
+    >>> add_integer(-1, -2)
+    -3
+
+Test with zeros:
+
+    >>> add_integer(0, 0)
+    0
+
+Test with string as first argument:
+
+    >>> add_integer("Hello", 2)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+Test with no arguments:
+
+    >>> add_integer()
+    Traceback (most recent call last):
+    TypeError: add_integer() missing 1 required positional argument: 'a'
